@@ -1,0 +1,80 @@
+html {
+  margin: auto;
+}
+body {
+  background-color: #2d2e31;
+}
+div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+#canvasContainer {
+  position: relative;
+  width: calc(100%-20px);
+  padding: 10px;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+#canvas {
+  max-height: 50vh;
+  max-width: 100%;
+  /* width: 95%; */
+}
+a,
+span {
+  display: block;
+  background-color: #b03fa7;
+  color: #f7f2f2;
+  font-weight: 300;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+a {
+  font-family: Arial;
+}
+span {
+  background-color: #6a2664;
+  font-size: 30x;
+  padding: 35px 10px;
+}
+#canvasContainer > i {
+  display: block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+i > i {
+  display: block;
+
+  width: 45px;
+  height: 45px;
+  background: #daa520;
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
