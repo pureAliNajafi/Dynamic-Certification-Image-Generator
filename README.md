@@ -5,11 +5,6 @@
 
 Just run html.htm file
 
-![ezgif-5-f1e1213af7](https://github.com/pureAliNajafi/Dynamic-Certification-Image-Generator/assets/147445558/7b682155-4721-4328-bfc5-f51c5b42fa22)
-
-![ezgif-2-c79fb3551e](https://github.com/pureAliNajafi/Dynamic-Certification-Image-Generator/assets/147445558/e21402b1-e9d7-4240-a0c5-910384800afa)
-
-
 ## Program Description
 
 This JavaScript program prompts the user to enter a nme and then generates certification image with the entered name on it and able to downlaod. 
@@ -20,6 +15,9 @@ After generating image, user able to downlad image
 
 This program includes error handling to prevent a java.util.InputMismatchException if the user enters a non-integer input.
 
+![ezgif-5-f1e1213af7](https://github.com/pureAliNajafi/Dynamic-Certification-Image-Generator/assets/147445558/7b682155-4721-4328-bfc5-f51c5b42fa22)
+
+![ezgif-2-c79fb3551e](https://github.com/pureAliNajafi/Dynamic-Certification-Image-Generator/assets/147445558/e21402b1-e9d7-4240-a0c5-910384800afa)
 
 
 ## License
